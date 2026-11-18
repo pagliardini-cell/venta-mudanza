@@ -13,6 +13,33 @@ const CATALOGO_ITEMS = [
     "destacado": true
   },
   {
+    "id": "sommier-springwall-roomy",
+    "titulo": "Sommier Baulera 2 Plazas Springwall Roomy (140x190 cm)",
+    "categoria": "muebles",
+    "precio": 440000,
+    "estado": "disponible",
+    "medidas": "1,40 m de ancho x 1,90 m de largo (2 Plazas estándar)",
+    "descripcion": "¡Ganá el equivalente a un placard acostado entero debajo de tu cama! Sistema de apertura con pistones hidráulicos a gas: se levanta sin esfuerzo con una sola mano y se sostiene solo mientras guardás o sacás cosas. Colchón con estructura de resortes Bonnell de alta resistencia y durabilidad. Estructura robusta en madera estacionada reforzada. Recién sanitizado y limpio a fondo, pistones firmes y listo para usar.",
+    "fotos": [
+      "img/sommier-springwall-01.jpg",
+      "img/sommier-springwall-02.jpg"
+    ],
+    "destacado": true
+  },
+  {
+    "id": "comoda-retro-blanca",
+    "titulo": "Cómoda Cajonera Retro Vintage Blanca (4 cajones con perillas)",
+    "categoria": "muebles",
+    "precio": 290000,
+    "estado": "disponible",
+    "medidas": "Ancho 100 cm x Alto 94 cm x Profundidad 50 cm",
+    "descripcion": "Cómoda cajonera estilo retro / mid-century en color blanco con 4 patas cónicas de madera maciza estilo nórdico. 4 cajones amplios con excelente capacidad de guardado. Incluye juego de 8 perillas decorativas importadas (diferenciadas por nivel: cerámica turquesa, flores labradas verdes y rojas, y vidrio facetado transparente). Estructura firme, muy buen estado y lista para usar. (Opción sin perillas: $210.000).",
+    "fotos": [
+      "img/comoda-retro-blanca-01.jpg"
+    ],
+    "destacado": true
+  },
+  {
     "id": "peladora-wahl-km2",
     "titulo": "Peladora Canina Profesional Wahl KM2 Speed (Hungría)",
     "categoria": "electro",
@@ -27,12 +54,12 @@ const CATALOGO_ITEMS = [
   },
   {
     "id": "climatizador-barcala-p568",
-    "titulo": "Climatizador de Aire Portátil Barcala P568 AirTek",
+    "titulo": "Climatizador de Aire Portátil Barcala P568 AirTek (20 Litros)",
     "categoria": "electro",
     "precio": 250000,
     "estado": "disponible",
     "medidas": "Alto 84 cm x Ancho 48 cm x Largo 40 cm · Tanque 20 Litros",
-    "descripcion": "Climatizador evaporativo portátil Barcala AirTek modelo P568. Potencia 200W de bajísimo consumo eléctrico. Funciona con un tanque de agua de 20 litros (se le puede cargar agua fría o hielo para una brisa fresca natural sin resecar el ambiente). Posee función de ventilación con 3 velocidades, oscilación automática de aletas para distribuir el aire, temporizador programable y control remoto. Práctico, ecológico y con ruedas para trasladar fácilmente.",
+    "descripcion": "Climatizador evaporativo portátil Barcala AirTek modelo P568. Potencia 200W de bajísimo consumo eléctrico. Funciona con tanque de agua de 20 litros (se le puede colocar agua fría o hielo para una brisa fresca natural sin resecar el ambiente). Función de ventilación con 3 velocidades, oscilación automática de aletas para distribuir el aire, temporizador programable y control remoto. Con ruedas para trasladar fácilmente.",
     "fotos": [
       "img/climatizador-barcala-01.jpg"
     ],
@@ -54,17 +81,17 @@ const CATALOGO_ITEMS = [
   },
   {
     "id": "lamparas-galponeras-vintage",
-    "titulo": "Par de Lámparas Galponeras Industriales Vintage (Las 2)",
+    "titulo": "Par de Lámparas Galponeras Industriales Vintage (El precio es por las 2)",
     "categoria": "hogar",
     "precio": 150000,
     "estado": "disponible",
     "medidas": "Alto 56 cm x Diámetro 50 cm c/u",
-    "descripcion": "Oportunidad única para arquitectos, diseñadores o proyectos comerciales (cervecerías, cafeterías, locales o lofts). Par idéntico de lámparas industriales de galpón real, piezas originales de gran porte en chapa pesada con interior de aluminio original. Zócalo modificado a E27 estándar (220V - 50Hz) para usar con focos LED comunes o filamento vintage. Conservan su robusto gancho superior original para colgar en cadena o tensor. El precio publicado es por el lote de las dos lámparas juntas.",
+    "descripcion": "Oportunidad única para arquitectos, diseñadores o proyectos comerciales (cervecerías, cafeterías, locales o lofts). Par idéntico de lámparas industriales de galpón real, piezas originales de gran porte en chapa pesada con interior de aluminio original. Zócalo modificado a E27 estándar (220V - 50Hz) para usar con focos LED comunes o filamento vintage. Conservan su robusto gancho superior original para colgar en cadena o tensor. El precio publicado es por las dos lámparas juntas.",
     "fotos": [
       "img/lamparas-galponeras-01.jpg",
       "img/lamparas-galponeras-02.jpg"
     ],
-    "destacado": true
+    "destacado": false
   },
   {
     "id": "cafetera-zokin-zj88",
@@ -77,7 +104,48 @@ const CATALOGO_ITEMS = [
     "fotos": [
       "img/cafetera-zokin-01.jpg"
     ],
-    "destacado": true
+    "destacado": false
+  },
+  {
+    "id": "termotanque-senorial-50l",
+    "titulo": "Termotanque a Gas Natural Señorial Zafiro 50 Litros (TSZ-50)",
+    "categoria": "electro",
+    "precio": 120000,
+    "estado": "disponible",
+    "medidas": "Alto 90,5 cm x Diámetro 36 cm · Conexión superior · 36 kg",
+    "descripcion": "Termotanque a gas natural Señorial Zafiro de 50 litros, modelo TSZ-50 con conexión superior. Consumo de 5500 kcal/h y alta recuperación de 150 L/h. Presión máxima de 4,5 kgf/cm². Estado funcional completo. Listo para instalar y usar.",
+    "fotos": [
+      "img/termotanque-senorial-01.jpg",
+      "img/termotanque-senorial-02.jpg"
+    ],
+    "destacado": false
+  },
+  {
+    "id": "vaporizador-conair-extremesteam",
+    "titulo": "Vaporizador de Prendas Portátil Conair ExtremeSteam",
+    "categoria": "electro",
+    "precio": 100000,
+    "estado": "disponible",
+    "medidas": "Tecnología doble calor · Mango ergonómico",
+    "descripcion": "Vaporizador de prendas portátil Conair ExtremeSteam de doble calentamiento. Elimina arrugas hasta 5 veces más rápido directo sobre la percha. 2 niveles de calor: bajo para prendas delicadas (seda, satén) y alto para telas gruesas (algodón, lana, tapizados). 100% ecológico, funciona solo con agua, desinfecta y quita olores de las telas. En excelente estado, incluye caja.",
+    "fotos": [
+      "img/vaporizador-conair-01.jpg"
+    ],
+    "destacado": false
+  },
+  {
+    "id": "exhibidor-toddy-vintage",
+    "titulo": "Exhibidor Toddy Chapa Vintage (Para Restaurar)",
+    "categoria": "varios",
+    "precio": 100000,
+    "estado": "disponible",
+    "medidas": "Estructura vertical de 4 niveles",
+    "descripcion": "Exhibidor publicitario original de chapa Toddy, pieza vintage auténtica. Estructura completa y firme con dos columnas diagonales decorativas a bastones rojos y blancos y estantes metálicos. Base con gráfica original Toddy Instantáneo. Ideal para restaurar, coleccionistas, bares temáticos o ambientaciones retro.",
+    "fotos": [
+      "img/exhibidor-toddy-01.jpg",
+      "img/exhibidor-toddy-02.jpg"
+    ],
+    "destacado": false
   },
   {
     "id": "ventilador-liliana-vsoc16",
@@ -89,6 +157,20 @@ const CATALOGO_ITEMS = [
     "descripcion": "Ventilador de mesa Liliana modelo VSOC16 con exclusivo Sistema Orbital: direcciona la brisa en forma horizontal y vertical elíptica distribuyendo el aire fresco en forma suave y uniforme hacia ambos lados, arriba y abajo. Parrilla cromada, 3 aspas transparentes, potente motor súper silencioso de 3 velocidades. Excelente estado de funcionamiento.",
     "fotos": [
       "img/ventilador-liliana-01.jpg"
+    ],
+    "destacado": false
+  },
+  {
+    "id": "mesa-luz-vintage-retro",
+    "titulo": "Mesa de Luz / Mueble Auxiliar Vintage Retro (Para Restaurar)",
+    "categoria": "muebles",
+    "precio": 60000,
+    "estado": "disponible",
+    "medidas": "Patas cónicas estilo nórdico / escandinavo",
+    "descripcion": "Mueble auxiliar o mesa de luz antigua con patas cónicas inclinadas estilo escandinavo/retro. Estructura firme de madera con una puerta batiente y estante divisorio interior forrado con papel floral. Pintado en color turquesa con desgaste natural en la tapa superior (efecto decapado / shabby chic). Ideal para usar en ambientaciones vintage o como base de restauración.",
+    "fotos": [
+      "img/mesa-luz-vintage-01.jpg",
+      "img/mesa-luz-vintage-02.jpg"
     ],
     "destacado": false
   },
