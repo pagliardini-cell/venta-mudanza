@@ -26,6 +26,19 @@ const CATALOGO_ITEMS = [
     "destacado": true
   },
   {
+    "id": "climatizador-barcala-p568",
+    "titulo": "Climatizador de Aire Portátil Barcala P568 AirTek",
+    "categoria": "electro",
+    "precio": 250000,
+    "estado": "disponible",
+    "medidas": "Alto 84 cm x Ancho 48 cm x Largo 40 cm · Tanque 20 Litros",
+    "descripcion": "Climatizador evaporativo portátil Barcala AirTek modelo P568. Potencia 200W de bajísimo consumo eléctrico. Funciona con un tanque de agua de 20 litros (se le puede cargar agua fría o hielo para una brisa fresca natural sin resecar el ambiente). Posee función de ventilación con 3 velocidades, oscilación automática de aletas para distribuir el aire, temporizador programable y control remoto. Práctico, ecológico y con ruedas para trasladar fácilmente.",
+    "fotos": [
+      "img/climatizador-barcala-01.jpg"
+    ],
+    "destacado": true
+  },
+  {
     "id": "turbina-dixter-2805",
     "titulo": "Turbina Profesional Dixter Modelo 2805 Dos Temperaturas (con caja)",
     "categoria": "electro",
@@ -36,6 +49,20 @@ const CATALOGO_ITEMS = [
     "fotos": [
       "img/turbina-dixter-01.jpg",
       "img/turbina-dixter-02.jpg"
+    ],
+    "destacado": true
+  },
+  {
+    "id": "lamparas-galponeras-vintage",
+    "titulo": "Par de Lámparas Galponeras Industriales Vintage (Las 2)",
+    "categoria": "hogar",
+    "precio": 150000,
+    "estado": "disponible",
+    "medidas": "Alto 56 cm x Diámetro 50 cm c/u",
+    "descripcion": "Oportunidad única para arquitectos, diseñadores o proyectos comerciales (cervecerías, cafeterías, locales o lofts). Par idéntico de lámparas industriales de galpón real, piezas originales de gran porte en chapa pesada con interior de aluminio original. Zócalo modificado a E27 estándar (220V - 50Hz) para usar con focos LED comunes o filamento vintage. Conservan su robusto gancho superior original para colgar en cadena o tensor. El precio publicado es por el lote de las dos lámparas juntas.",
+    "fotos": [
+      "img/lamparas-galponeras-01.jpg",
+      "img/lamparas-galponeras-02.jpg"
     ],
     "destacado": true
   },
@@ -51,6 +78,19 @@ const CATALOGO_ITEMS = [
       "img/cafetera-zokin-01.jpg"
     ],
     "destacado": true
+  },
+  {
+    "id": "ventilador-liliana-vsoc16",
+    "titulo": "Ventilador de Mesa Orbital Liliana VSOC16 (16 Pulgadas)",
+    "categoria": "electro",
+    "precio": 65000,
+    "estado": "disponible",
+    "medidas": "Diámetro 16\" (40 cm) · Potencia 65W · 48,5 x 15 x 65,5 cm",
+    "descripcion": "Ventilador de mesa Liliana modelo VSOC16 con exclusivo Sistema Orbital: direcciona la brisa en forma horizontal y vertical elíptica distribuyendo el aire fresco en forma suave y uniforme hacia ambos lados, arriba y abajo. Parrilla cromada, 3 aspas transparentes, potente motor súper silencioso de 3 velocidades. Excelente estado de funcionamiento.",
+    "fotos": [
+      "img/ventilador-liliana-01.jpg"
+    ],
+    "destacado": false
   },
   {
     "id": "planchita-gama-bloom",
