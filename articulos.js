@@ -2,7 +2,7 @@ const CATALOGO_ITEMS = [
   {
     "id": "yaesu-ft747gx",
     "titulo": "Transceptor HF Yaesu FT-747GX + Micrófono Original y Soporte",
-    "categoria": "varios",
+    "categoria": "radio",
     "precio": 950000,
     "estado": "disponible",
     "medidas": "100W PEP SSB/CW · Recepción 100 kHz a 30 MHz · 13.8V DC",
@@ -28,7 +28,7 @@ const CATALOGO_ITEMS = [
   {
     "id": "icom-ic2410a",
     "titulo": "Radio Bibanda VHF/UHF Icom IC-2410A + Módulo de Voz + Mic DTMF",
-    "categoria": "varios",
+    "categoria": "radio",
     "precio": 450000,
     "estado": "disponible",
     "medidas": "VHF 45W / UHF 35W · Doble VFO · 13.8V DC",
@@ -122,7 +122,7 @@ const CATALOGO_ITEMS = [
   {
     "id": "yaesu-vx1r",
     "titulo": "Handy Bibanda Yaesu VX-1R Ultra Compacto + Cargador Original",
-    "categoria": "varios",
+    "categoria": "radio",
     "precio": 180000,
     "estado": "disponible",
     "medidas": "VHF / UHF · Receptor banda ancha AM/FM · Ultra bolsillo",
@@ -176,7 +176,7 @@ const CATALOGO_ITEMS = [
   {
     "id": "vatimetro-pyramid-swr14",
     "titulo": "Vatímetro y Medidor de ROE Pyramid SWR-14 Doble Aguja",
-    "categoria": "varios",
+    "categoria": "radio",
     "precio": 110000,
     "estado": "disponible",
     "medidas": "Escalas 10W / 100W · HF y VHF · Doble instrumento",
