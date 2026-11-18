@@ -1,0 +1,68 @@
+const CATALOGO_ITEMS = [
+  {
+    "id": "secador-dixter-2807",
+    "titulo": "Secador de Pie Profesional Dixter Modelo 2807 (con caja)",
+    "categoria": "electro",
+    "precio": 500000,
+    "estado": "disponible",
+    "medidas": "Consumo 100W a 2100W · Caudal 5 m³/min · Cable 5 m",
+    "descripcion": "Secador profesional manos libres de alta estabilidad. Motor sin carbones de última generación, de muy bajo consumo y ultra silencioso (sin mantenimiento). Regulador de 4 temperaturas y resistencia con protector térmico. Cuerpo multidireccional en polietileno de gran espesor con codo direccionable y pie robusto regulable en altura. Como nuevo, incluye su caja original, codo y manuales.",
+    "fotos": [
+      "img/secador-dixter-2807-01.png"
+    ],
+    "destacado": true
+  },
+  {
+    "id": "peladora-wahl-km2",
+    "titulo": "Peladora Canina Profesional Wahl KM2 Speed (Hungría)",
+    "categoria": "electro",
+    "precio": 250000,
+    "estado": "disponible",
+    "medidas": "45 Watts de potencia · 2 velocidades · 220V",
+    "descripcion": "Clásica máquina peladora para perros Wahl KM2 Speed, fabricada en la histórica fábrica de Hungría (heredera directa del diseño Moser Max 45 de Alemania). 2 velocidades, motor de alta durabilidad y potencia constante. Incluye cuchilla americana original Wahl #10. Cable de 220V con ficha legal de Argentina. En excelente estado.",
+    "fotos": [
+      "img/peladora-wahl-km2-01.jpg"
+    ],
+    "destacado": true
+  },
+  {
+    "id": "turbina-dixter-2805",
+    "titulo": "Turbina Profesional Dixter Modelo 2805 Dos Temperaturas (con caja)",
+    "categoria": "electro",
+    "precio": 200000,
+    "estado": "disponible",
+    "medidas": "Potencia total 2200W · Motor 1200W · Manguera 2,5 m · Cable 5 m",
+    "descripcion": "Turbina de uso intensivo y profesional. Motor industrial de 1200 W doble turbina, calefactor ubicado en el cuerpo (no en la manguera para mayor durabilidad). Dos temperaturas (calienta a 25°C y 55°C sobre temperatura ambiente con selector independiente). Cuerpo de polietileno resistente que no se oxida ni abolla. Cable industrial de 5 metros, manguera de 2,5 m e interruptor con protector anti-salpicaduras. Como nueva, incluye su caja original.",
+    "fotos": [
+      "img/turbina-dixter-01.jpg",
+      "img/turbina-dixter-02.jpg"
+    ],
+    "destacado": true
+  },
+  {
+    "id": "cafetera-zokin-zj88",
+    "titulo": "Cafetera Zokin ZJ-88 Acero Inoxidable (8,8 Litros)",
+    "categoria": "electro",
+    "precio": 150000,
+    "estado": "disponible",
+    "medidas": "Capacidad 8,8 Litros · Voltaje 220V - 240V",
+    "descripcion": "Cafetera percoladora gastronómica en acero inoxidable. Impecable, casi nada de uso, ¡está nueva y funciona todo! Tolva y filtro de acero inoxidable, tapa con traba de dos manijas, regulador de temperatura, medidor vertical de agua, botón de encendido y apagado, grifo antigoteo de plástico resistente y apagado automático para mantener el café a punto en su temperatura. Ideal para oficina, bar, eventos, buffet o club.",
+    "fotos": [
+      "img/cafetera-zokin-01.jpg"
+    ],
+    "destacado": true
+  },
+  {
+    "id": "planchita-gama-bloom",
+    "titulo": "Planchita de Pelo GA.MA Elegance LED Bloom (Poco Uso)",
+    "categoria": "electro",
+    "precio": 60000,
+    "estado": "disponible",
+    "medidas": "Display LED digital · Patines extra largos",
+    "descripcion": "Plancha de pelo GA.MA Italy modelo Elegance LED Bloom. Diseño ultra delgado con patines flotantes recubiertos de turmalina para un cuidado extremo del cabello y efecto anti-frizz. Control de temperatura digital LED graduable (hasta 230°C) y cable giratorio profesional. Muy poco uso, en su caja original y funcionando 100% perfecto.",
+    "fotos": [
+      "img/planchita-gama-bloom-01.jpg"
+    ],
+    "destacado": false
+  }
+];

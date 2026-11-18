@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Venta por Mudanza Definitiva a Brasil | Mar del Plata</title>
+  <meta name="description" content="Nos mudamos a Brasil y liquidamos muebles, electrodomésticos, bazar y artículos del hogar. Retiro por Barrio Constitución / Caisamar, Mar del Plata.">
+  
+  <!-- Favicon y Fuentes -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['"Plus Jakarta Sans"', 'sans-serif'],
+          },
+          colors: {
+            brand: {
+              50: '#f0fdf4',
+              100: '#dcfce7',
+              500: '#22c55e',
+              600: '#16a34a',
+              700: '#15803d',
+            },
+            accent: {
+              400: '#fbbf24',
+              500: '#f59e0b',
+            }
+          }
+        }
+      }
+    }
+  </script>
+
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+
+  <style>
+    /* Estilos personalizados para efectos sutiles */
+    .glass-card {
+      background: rgba(23, 23, 23, 0.75);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+      border: 1px solid rgba(255, 255, 255, 0.08);
+    }
+    .glass-nav {
+      background: rgba(10, 10, 10, 0.85);
+      backdrop-filter: blur(16px);
+      -webkit-backdrop-filter: blur(16px);
+      border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+    }
+    .badge-glow {
+      box-shadow: 0 0 15px rgba(34, 197, 94, 0.25);
+    }
+  </style>
+</head>
+<body class="bg-[#0c0d0e] text-neutral-100 min-h-screen flex flex-col font-sans selection:bg-brand-500 selection:text-white pb-32">
+
+  <!-- NAVBAR / TOPBAR -->
+  <header class="sticky top-0 z-40 glass-nav">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 h-16 flex items-center justify-between">
+      <div class="flex items-center gap-3">
+        <div class="w-10 h-10 rounded-xl bg-gradient-to-tr from-sky-500 to-amber-300 flex items-center justify-center shadow-lg shadow-sky-500/10 font-black text-xl text-neutral-950">
+          🇦🇷
+        </div>
+        <div>
+          <span class="font-extrabold text-base sm:text-lg tracking-tight block leading-none">Venta por Mudanza</span>
+          <span class="text-xs text-neutral-400 font-medium">MDQ ➔ Brasil</span>
+        </div>
+      </div>
+
+      <div class="flex items-center gap-3">
+        <div class="hidden md:flex items-center gap-2 text-xs text-emerald-400 bg-emerald-950/40 border border-emerald-500/20 px-3 py-1.5 rounded-full">
+          <span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
+          <span>Catálogo actualizado</span>
+        </div>
+        <button id="btnVerConsultaTop" class="relative text-sm font-semibold text-neutral-300 hover:text-white flex items-center gap-2 py-2 px-3 rounded-lg hover:bg-neutral-800/60 transition">
+          <i data-lucide="shopping-bag" class="w-5 h-5"></i>
+          <span class="hidden sm:inline">Tu consulta</span>
+          <span id="badgeTopCount" class="hidden text-xs bg-brand-500 text-neutral-950 font-bold px-1.5 py-0.5 rounded-full">0</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- HERO SECTION CONTENIDO EN EL ANCHO DEL TEXTO -->
+  <section class="relative pt-6 pb-8 border-b border-neutral-800/80">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6">
+      
+      <!-- CONTENEDOR TIPO CAJA / BANNER -->
+      <div class="glass-card rounded-3xl p-5 sm:p-7 border-neutral-800 shadow-2xl bg-neutral-900/60">
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-6 lg:gap-8 items-center">
+          
+          <!-- COLUMNA TEXTO Y CONDICIONES (IZQUIERDA) -->
+          <div class="lg:col-span-6 space-y-4">
+            
+            <div class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-neutral-800/80 border border-neutral-700/60 text-xs font-bold text-sky-300">
+              <span>🇦🇷</span>
+              <span>MDQ ➔ Brasil</span>
+            </div>
+
+            <h1 class="text-3xl sm:text-4xl md:text-5xl font-black tracking-tight text-white leading-tight">
+              Nuestra familia se muda a <span class="text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 via-teal-300 to-amber-400">Brasil</span>
+            </h1>
+
+            <p class="text-neutral-300 text-sm sm:text-base leading-relaxed font-medium">
+              Por un nuevo estilo de vida nos mudamos y vendemos todo. Muebles, electrodomésticos y artículos del hogar en excelente estado de conservación.
+            </p>
+
+            <!-- CONDICIONES DE RETIRO -->
+            <div class="space-y-2.5 pt-2">
+              
+              <div class="flex items-center gap-3 p-3 rounded-2xl bg-neutral-950/70 border border-neutral-800">
+                <div class="p-2 rounded-xl bg-emerald-500/10 text-emerald-400 shrink-0">
+                  <i data-lucide="map-pin" class="w-5 h-5"></i>
+                </div>
+                <div class="min-w-0">
+                  <div class="text-[10px] text-neutral-400 font-bold uppercase tracking-wider">Zona de retiro</div>
+                  <div class="text-xs sm:text-sm font-bold text-white truncate">Barrio Constitución / Caisamar (Mar del Plata)</div>
+                </div>
+              </div>
+
+              <div class="flex items-center gap-3 p-3 rounded-2xl bg-neutral-950/70 border border-amber-500/30">
+                <div class="p-2 rounded-xl bg-amber-500/10 text-amber-400 shrink-0">
+                  <i data-lucide="truck" class="w-5 h-5"></i>
+                </div>
+                <div class="min-w-0">
+                  <div class="text-[10px] text-amber-300 font-bold uppercase tracking-wider">Condición obligatoria</div>
+                  <div class="text-xs sm:text-sm font-bold text-white">Retiro a cargo del comprador (sin traslados ni envíos)</div>
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+
+          <!-- COLUMNA IMAGEN COMPLETA (DERECHA - NADA RECORTADO, SE VEN TODOS LOS ANIMALES) -->
+          <div class="lg:col-span-6">
+            <div class="relative rounded-2xl overflow-hidden border border-neutral-700/80 shadow-2xl bg-neutral-950 group">
+              <img 
+                src="img/caricatura-familia.jpg" 
+                alt="Familia mudanza a Brasil" 
+                class="w-full h-auto object-contain block group-hover:scale-[1.02] transition-transform duration-500"
+              >
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- SECCIÓN PRINCIPAL: FILTROS, BÚSQUEDA Y GRID -->
+  <main class="max-w-6xl mx-auto px-4 sm:px-6 pt-8 flex-1 w-full space-y-6">
+    
+    <!-- BARRA DE HERRAMIENTAS Y BÚSQUEDA -->
+    <div class="flex flex-col md:flex-row md:items-center justify-between gap-4">
+      
+      <!-- Input de búsqueda -->
+      <div class="relative flex-1 max-w-md">
+        <i data-lucide="search" class="w-5 h-5 absolute left-3.5 top-1/2 -translate-y-1/2 text-neutral-400"></i>
+        <input 
+          type="text" 
+          id="inputBusqueda" 
+          placeholder="Buscar mueble, microondas, medidas..." 
+          class="w-full bg-neutral-900 border border-neutral-800 rounded-xl pl-11 pr-10 py-2.5 text-sm text-white placeholder-neutral-500 focus:outline-none focus:border-emerald-500 focus:ring-1 focus:ring-emerald-500 transition"
+        >
+        <button id="btnLimpiarBusqueda" class="hidden absolute right-3 top-1/2 -translate-y-1/2 text-neutral-400 hover:text-white">
+          <i data-lucide="x" class="w-4 h-4"></i>
+        </button>
+      </div>
+
+      <!-- Filtro rápidos: Solo disponibles -->
+      <div class="flex items-center gap-3">
+        <label class="flex items-center gap-2 text-xs sm:text-sm font-medium text-neutral-300 cursor-pointer select-none bg-neutral-900 px-3.5 py-2 rounded-xl border border-neutral-800 hover:border-neutral-700 transition">
+          <input type="checkbox" id="checkSoloDisponibles" class="w-4 h-4 rounded bg-neutral-800 border-neutral-700 text-emerald-500 focus:ring-emerald-500 focus:ring-offset-neutral-900 cursor-pointer">
+          <span>Solo artículos disponibles</span>
+        </label>
+        
+        <span id="contadorItems" class="text-xs text-neutral-400 font-semibold px-3 py-2 bg-neutral-900/60 rounded-xl border border-neutral-800">
+          Cargando...
+        </span>
+      </div>
+    </div>
+
+    <!-- CHIPS DE CATEGORÍAS -->
+    <div class="flex items-center gap-2 overflow-x-auto pb-2 scrollbar-none" id="contenedorCategorias">
+      <button data-cat="todas" class="cat-chip active px-4 py-2 rounded-xl text-xs sm:text-sm font-semibold transition flex items-center gap-1.5 whitespace-nowrap bg-emerald-500 text-neutral-950 shadow-lg shadow-emerald-500/20">
+        <i data-lucide="layout-grid" class="w-4 h-4"></i> Todos
+      </button>
+      <button data-cat="muebles" class="cat-chip px-4 py-2 rounded-xl text-xs sm:text-sm font-semibold transition flex items-center gap-1.5 whitespace-nowrap bg-neutral-900 text-neutral-300 hover:text-white hover:bg-neutral-800 border border-neutral-800">
+        <i data-lucide="armchair" class="w-4 h-4"></i> Muebles
+      </button>
+      <button data-cat="electro" class="cat-chip px-4 py-2 rounded-xl text-xs sm:text-sm font-semibold transition flex items-center gap-1.5 whitespace-nowrap bg-neutral-900 text-neutral-300 hover:text-white hover:bg-neutral-800 border border-neutral-800">
+        <i data-lucide="zap" class="w-4 h-4"></i> Electro
+      </button>
+      <button data-cat="hogar" class="cat-chip px-4 py-2 rounded-xl text-xs sm:text-sm font-semibold transition flex items-center gap-1.5 whitespace-nowrap bg-neutral-900 text-neutral-300 hover:text-white hover:bg-neutral-800 border border-neutral-800">
+        <i data-lucide="home" class="w-4 h-4"></i> Hogar & Bazar
+      </button>
+      <button data-cat="varios" class="cat-chip px-4 py-2 rounded-xl text-xs sm:text-sm font-semibold transition flex items-center gap-1.5 whitespace-nowrap bg-neutral-900 text-neutral-300 hover:text-white hover:bg-neutral-800 border border-neutral-800">
+        <i data-lucide="package" class="w-4 h-4"></i> Varios
+      </button>
+    </div>
+
+    <!-- GRID DE ARTÍCULOS -->
+    <div id="gridArticulos" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 pt-2">
+      <!-- Se puebla dinámicamente con app.js -->
+    </div>
+
+    <!-- ESTADO VACÍO (Si la búsqueda no da resultados) -->
+    <div id="sinResultados" class="hidden text-center py-16 space-y-3">
+      <div class="w-16 h-16 mx-auto rounded-full bg-neutral-900 flex items-center justify-center text-neutral-500">
+        <i data-lucide="search-x" class="w-8 h-8"></i>
+      </div>
+      <h3 class="text-base font-bold text-white">No encontramos artículos con ese criterio</h3>
+      <p class="text-xs text-neutral-400">Probá buscando con otra palabra o limpiando los filtros.</p>
+      <button id="btnResetFiltros" class="mt-2 px-4 py-2 bg-neutral-800 hover:bg-neutral-700 text-xs font-semibold rounded-xl text-white transition">
+        Ver todos los artículos
+      </button>
+    </div>
+
+  </main>
+
+  <!-- BARRA FLOTANTE INFERIOR (CARRITO / CONSULTA ACTIVA) -->
+  <div id="barraFlotante" class="fixed bottom-4 left-0 right-0 z-50 px-4 transition-all duration-300 translate-y-32 opacity-0 pointer-events-none">
+    <div class="max-w-2xl mx-auto glass-card rounded-2xl p-3 sm:p-4 shadow-2xl border-emerald-500/30 flex items-center justify-between gap-3">
+      
+      <div class="flex items-center gap-3">
+        <div class="w-11 h-11 rounded-xl bg-brand-500 text-neutral-950 font-black flex items-center justify-center text-base shadow-lg shadow-brand-500/20">
+          <span id="cantFlotante">1</span>
+        </div>
+        <div>
+          <div class="text-xs text-neutral-400 font-medium">Artículos elegidos</div>
+          <div class="text-base sm:text-lg font-extrabold text-white" id="totalFlotante">$ 0</div>
+        </div>
+      </div>
+
+      <div class="flex items-center gap-2">
+        <button id="btnAbrirModalConsulta" class="px-4 sm:px-6 py-2.5 rounded-xl bg-emerald-500 hover:bg-emerald-400 text-neutral-950 font-extrabold text-xs sm:text-sm flex items-center gap-2 shadow-lg shadow-emerald-500/20 transition transform active:scale-95">
+          <i data-lucide="message-circle" class="w-4 h-4"></i>
+          <span>Enviar consulta</span>
+        </button>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- MODAL DE RESUMEN Y ENVÍO A WHATSAPP -->
+  <div id="modalConsulta" class="fixed inset-0 z-50 bg-black/80 backdrop-blur-sm hidden items-center justify-center p-4">
+    <div class="glass-card w-full max-w-lg rounded-3xl p-6 border-neutral-700 space-y-5 animate-in fade-in zoom-in-95 duration-200">
+      
+      <div class="flex items-center justify-between pb-3 border-b border-neutral-800">
+        <div class="flex items-center gap-2">
+          <i data-lucide="message-circle" class="w-5 h-5 text-emerald-400"></i>
+          <h2 class="text-lg font-bold text-white">Tu Consulta por WhatsApp</h2>
+        </div>
+        <button id="btnCerrarModalConsulta" class="text-neutral-400 hover:text-white p-1 rounded-lg hover:bg-neutral-800">
+          <i data-lucide="x" class="w-5 h-5"></i>
+        </button>
+      </div>
+
+      <!-- Lista de artículos en la consulta -->
+      <div class="space-y-2 max-h-56 overflow-y-auto pr-1" id="listaConsultaItems">
+        <!-- Renderizado dinámico -->
+      </div>
+
+      <!-- Total -->
+      <div class="p-3 bg-neutral-900 rounded-xl flex items-center justify-between border border-neutral-800">
+        <span class="text-xs text-neutral-400 font-semibold uppercase tracking-wider">Monto total estimado:</span>
+        <span class="text-lg font-extrabold text-emerald-400" id="montoTotalModal">$ 0</span>
+      </div>
+
+      <!-- Nombre del comprador (opcional) -->
+      <div>
+        <label for="inputNombreComprador" class="block text-xs font-semibold text-neutral-300 mb-1.5">
+          ¿Cómo te llamás? (opcional)
+        </label>
+        <input 
+          type="text" 
+          id="inputNombreComprador" 
+          placeholder="Ej: Marcelo" 
+          class="w-full bg-neutral-900 border border-neutral-800 rounded-xl px-3.5 py-2 text-sm text-white focus:outline-none focus:border-emerald-500"
+        >
+      </div>
+
+      <!-- Recordatorio de retiro -->
+      <div class="p-3 rounded-xl bg-amber-500/10 border border-amber-500/20 text-xs text-amber-200/90 flex items-start gap-2.5">
+        <i data-lucide="alert-triangle" class="w-4 h-4 text-amber-400 shrink-0 mt-0.5"></i>
+        <div>
+          <strong>Aviso importante:</strong> El retiro se realiza en persona por <strong>Barrio Constitución / Caisamar (Mar del Plata)</strong> a cargo del comprador. No realizamos envíos.
+        </div>
+      </div>
+
+      <!-- Botón de disparo a WhatsApp -->
+      <button id="btnDispararWhatsApp" class="w-full py-3.5 rounded-2xl bg-emerald-500 hover:bg-emerald-400 text-neutral-950 font-black text-sm sm:text-base flex items-center justify-center gap-2 shadow-xl shadow-emerald-500/20 transition transform active:scale-98">
+        <i data-lucide="message-square" class="w-5 h-5"></i>
+        <span>Abrir WhatsApp y Enviar Lista</span>
+      </button>
+
+    </div>
+  </div>
+
+  <!-- MODAL DE DETALLE / FOTO EN ALTA RESOLUCIÓN -->
+  <div id="modalDetalle" class="fixed inset-0 z-50 bg-black/85 backdrop-blur-md hidden items-center justify-center p-4">
+    <div class="glass-card w-full max-w-2xl rounded-3xl overflow-hidden border-neutral-700 space-y-4">
+      <div class="relative aspect-video bg-neutral-900 overflow-hidden">
+        <img id="imgDetalle" src="" alt="Foto artículo" class="w-full h-full object-contain bg-black">
+        <button id="btnCerrarModalDetalle" class="absolute top-3 right-3 p-2 rounded-full bg-black/60 text-white hover:bg-black/80 transition">
+          <i data-lucide="x" class="w-5 h-5"></i>
+        </button>
+      </div>
+      <!-- Galería de miniaturas cuando hay varias fotos -->
+      <div id="miniaturasDetalle" class="hidden px-6 flex gap-2 overflow-x-auto"></div>
+      <div class="p-6 space-y-3">
+        <div class="flex items-center justify-between">
+          <span id="badgeEstadoDetalle" class="text-xs px-2.5 py-1 rounded-full font-bold"></span>
+          <span id="precioDetalle" class="text-2xl font-black text-white"></span>
+        </div>
+        <h2 id="tituloDetalle" class="text-xl font-bold text-white"></h2>
+        <div id="medidasDetalle" class="text-xs text-neutral-400 flex items-center gap-1.5 font-medium"></div>
+        <p id="descripcionDetalle" class="text-sm text-neutral-300 leading-relaxed"></p>
+
+        <div class="pt-4 flex gap-3">
+          <button id="btnAccionDetalle" class="flex-1 py-3 rounded-xl font-bold text-sm flex items-center justify-center gap-2 transition">
+            <!-- Acción cambiará dinámicamente -->
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <footer class="mt-auto border-t border-neutral-800/80 py-8 text-center text-xs text-neutral-500 space-y-2">
+    <p>Venta por Mudanza Definitiva a Brasil · Mar del Plata</p>
+    <p>Retiro por Barrio Constitución / Caisamar · Coordinación directa por WhatsApp</p>
+  </footer>
+
+  <!-- DATOS Y LÓGICA DE LA APLICACIÓN -->
+  <script src="articulos.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
