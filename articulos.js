@@ -1,5 +1,18 @@
 const CATALOGO_ITEMS = [
   {
+    "id": "yaesu-ft747gx",
+    "titulo": "Transceptor HF Yaesu FT-747GX + Micrófono Original y Soporte",
+    "categoria": "varios",
+    "precio": 950000,
+    "estado": "disponible",
+    "medidas": "100W PEP SSB/CW · Recepción 100 kHz a 30 MHz · 13.8V DC",
+    "descripcion": "Transceptor clásico de HF Yaesu FT-747GX en muy buen estado estético y operativo. Liberado para transmisión en 11 metros (Banda Ciudadana) y banda corrida. Modos: LSB, USB, CW y AM. Incluye micrófono de mano original Yaesu, soporte de montaje metálico con perillas y cable de alimentación de 12V. Se entrega en Mar del Plata (se puede probar antes de retirar).",
+    "fotos": [
+      "img/transceptor-yaesu-ft747-01.jpg"
+    ],
+    "destacado": true
+  },
+  {
     "id": "secador-dixter-2807",
     "titulo": "Secador de Pie Profesional Dixter Modelo 2807 (con caja)",
     "categoria": "electro",
@@ -9,6 +22,19 @@ const CATALOGO_ITEMS = [
     "descripcion": "Secador profesional manos libres de alta estabilidad. Motor sin carbones de última generación, de muy bajo consumo y ultra silencioso (sin mantenimiento). Regulador de 4 temperaturas y resistencia con protector térmico. Cuerpo multidireccional en polietileno de gran espesor con codo direccionable y pie robusto regulable en altura. Como nuevo, incluye su caja original, codo y manuales.",
     "fotos": [
       "img/secador-dixter-2807-01.png"
+    ],
+    "destacado": true
+  },
+  {
+    "id": "icom-ic2410a",
+    "titulo": "Radio Bibanda VHF/UHF Icom IC-2410A + Módulo de Voz + Mic DTMF",
+    "categoria": "varios",
+    "precio": 450000,
+    "estado": "disponible",
+    "medidas": "VHF 45W / UHF 35W · Doble VFO · 13.8V DC",
+    "descripcion": "Transceptor móvil/base bibanda japonés Icom IC-2410A (VHF 144 MHz / UHF 430 MHz) con módulo exclusivo de síntesis de voz integrado (anuncia frecuencias y funciones en audio). Operación simultánea, doble VFO y funciones avanzadas de repetidor/subtonos. Incluye micrófono de mano original con teclado DTMF, soporte y cable de alimentación. Se puede probar.",
+    "fotos": [
+      "img/radio-icom-ic2410a-01.jpg"
     ],
     "destacado": true
   },
@@ -80,6 +106,33 @@ const CATALOGO_ITEMS = [
     "destacado": true
   },
   {
+    "id": "tostador-russell-hobbs",
+    "titulo": "Panini Tostador Russell Hobbs Glass Line 1000W",
+    "categoria": "electro",
+    "precio": 200000,
+    "estado": "disponible",
+    "medidas": "Planchas 30 x 19 cm aprox · 1000W · 220V",
+    "descripcion": "Tostador y prensa de paninis estilo café europeo Russell Hobbs línea Glass Line. Tapa de vidrio templado que permanece fría al tacto y asa de madera. Bisagra flotante horizontal que se ajusta automáticamente a distintos grosores de sándwiches, ciabattas o tostados. Placas acanaladas antiadherentes de calentamiento ultra rápido y fácil limpieza. Cuerpo en acero inoxidable.",
+    "fotos": [
+      "img/tostador-russell-hobbs-01.jpg",
+      "img/tostador-russell-hobbs-02.jpg"
+    ],
+    "destacado": false
+  },
+  {
+    "id": "yaesu-vx1r",
+    "titulo": "Handy Bibanda Yaesu VX-1R Ultra Compacto + Cargador Original",
+    "categoria": "varios",
+    "precio": 180000,
+    "estado": "disponible",
+    "medidas": "VHF / UHF · Receptor banda ancha AM/FM · Ultra bolsillo",
+    "descripcion": "Handy miniatura ultra compacto de bolsillo bibanda Yaesu VX-1R (VHF/UHF). Chasis metálico súper robusto, receptor de banda ancha (incluye radio comercial AM/FM y onda corta). Incluye su cargador de batería original. Detalle estético: la antena flexible presenta una rotura en la goma protectora exterior (funciona pero tiene ese detalle estético a la vista en la foto).",
+    "fotos": [
+      "img/handy-yaesu-vx1r-01.jpg"
+    ],
+    "destacado": false
+  },
+  {
     "id": "lamparas-galponeras-vintage",
     "titulo": "Par de Lámparas Galponeras Industriales Vintage (El precio es por las 2)",
     "categoria": "hogar",
@@ -121,6 +174,33 @@ const CATALOGO_ITEMS = [
     "destacado": false
   },
   {
+    "id": "vatimetro-pyramid-swr14",
+    "titulo": "Vatímetro y Medidor de ROE Pyramid SWR-14 Doble Aguja",
+    "categoria": "varios",
+    "precio": 110000,
+    "estado": "disponible",
+    "medidas": "Escalas 10W / 100W · HF y VHF · Doble instrumento",
+    "descripcion": "Medidor de ondas estacionarias (SWR/ROE) y vatímetro Pyramid modelo SWR-14 en excelente estado. Sistema de doble aguja independiente para lectura simultánea de potencia de salida y estacionarias sin conmutar. Rangos de 10W y 100W, perilla de calibración frontal y selectores REF/FWD. Instrumental de precisión clásico para estaciones de radio.",
+    "fotos": [
+      "img/vatimetro-pyramid-swr14-01.jpg"
+    ],
+    "destacado": false
+  },
+  {
+    "id": "anafe-induccion-prestige",
+    "titulo": "Anafe De Inducción Prestige 2100W Portátil Digital",
+    "categoria": "electro",
+    "precio": 100000,
+    "estado": "disponible",
+    "medidas": "Potencia 2100W · 220V 50Hz · Vidrio cerámico",
+    "descripcion": "Anafe portátil por inducción magnética Prestige modelo PR-ICSB1621. ¡Llevalo directo al centro de la mesa familiar o quincho! 2100W de potencia extrema (hierve en la mitad de tiempo que el gas). Panel 100% digital touch con programas inteligentes (Slow Food, Salteado, Freír, Baño María, Al Vapor, Sopa y Hervir Agua) y temporizador. Súper seguro: la placa no quema al tacto al lado de la olla y se limpia con una pasada de paño húmedo. (Requiere ollas de hierro o acero ferromagnético).",
+    "fotos": [
+      "img/anafe-induccion-prestige-01.jpg",
+      "img/anafe-induccion-prestige-02.jpg"
+    ],
+    "destacado": false
+  },
+  {
     "id": "vaporizador-conair-extremesteam",
     "titulo": "Vaporizador de Prendas Portátil Conair ExtremeSteam",
     "categoria": "electro",
@@ -144,6 +224,19 @@ const CATALOGO_ITEMS = [
     "fotos": [
       "img/exhibidor-toddy-01.jpg",
       "img/exhibidor-toddy-02.jpg"
+    ],
+    "destacado": false
+  },
+  {
+    "id": "taladro-banco-garden-plus",
+    "titulo": "Taladro De Banco 13 mm 250W Garden Plus TB-13C",
+    "categoria": "varios",
+    "precio": 90000,
+    "estado": "disponible",
+    "medidas": "Mandril 13 mm · Potencia 250W · 5 Velocidades",
+    "descripcion": "Taladro de banco de columna Garden Plus modelo TB-13C. Mandril para mechas de hasta 13 mm. 5 velocidades de trabajo por poleas (620, 960, 1280, 1750 y 2620 RPM). Mesa de apoyo metálica ranurada e inclinable para perforaciones en ángulo. Motor de 250W a 220V 50Hz. Muy buen estado general y funcionamiento impecable.",
+    "fotos": [
+      "img/taladro-banco-garden-plus-01.jpg"
     ],
     "destacado": false
   },
