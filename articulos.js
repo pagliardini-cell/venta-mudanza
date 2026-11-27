@@ -96,14 +96,14 @@ const CATALOGO_ITEMS = [
     "titulo": "Turbina Profesional Dixter Modelo 2805 Dos Temperaturas (con caja)",
     "categoria": "electro",
     "precio": 200000,
-    "estado": "disponible",
+    "estado": "vendido",
     "medidas": "Potencia total 2200W · Motor 1200W · Manguera 2,5 m · Cable 5 m",
     "descripcion": "Turbina de uso intensivo y profesional. Motor industrial de 1200 W doble turbina, calefactor ubicado en el cuerpo (no en la manguera para mayor durabilidad). Dos temperaturas (calienta a 25°C y 55°C sobre temperatura ambiente con selector independiente). Cuerpo de polietileno resistente que no se oxida ni abolla. Cable industrial de 5 metros, manguera de 2,5 m e interruptor con protector anti-salpicaduras. Como nueva, incluye su caja original.",
     "fotos": [
       "img/turbina-dixter-01.jpg",
       "img/turbina-dixter-02.jpg"
     ],
-    "destacado": true
+    "destacado": false
   },
   {
     "id": "tostador-russell-hobbs",
